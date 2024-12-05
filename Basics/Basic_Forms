@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page Form</title>
+  </head>
+  <body background="./360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg">
+    <center>
+      <h1>Login</h1>
+      <form action="">
+        <label
+          >Name:
+          <input
+            type="text"
+            name="Name"
+            id=""
+            placeholder="Enter your Name" /></label
+        ><br />
+        <br />
+        <label>
+          Mobile No:
+          <input
+            type="tel"
+            maxlength="10"
+            placeholder="Enter Mobile No" /></label
+        ><br />
+        <br />
+        <label
+          >Email Id:
+          <input
+            type="email"
+            name="Email"
+            id=""
+            maxlength="14"
+            placeholder="Enter email Id" /></label
+        ><br />
+        <br />
+        <label
+          >Password:
+          <input
+            type="password"
+            name="Password"
+            id="Password"
+            maxlength="10"
+            placeholder="Enter Password"
+        /></label>
+        <br />
+        <br />
+        <!-- Radio button -->
+        <label for="Gender">
+          Gender: Male: <input type="radio" name="radio" id="" /> Female:<input
+            type="radio"
+            name="radio"
+            id=""
+          /> </label
+        ><br />
+        <br />
+        <!-- Location-->
+        <label for="location">
+          location:
+          <select name="location" id="">
+            <option value="Pune">Pune</option>
+            <option value="Chinchwad">Chinchwad</option>
+            <option value="Pimpri">Pimpri</option>
+          </select> </label
+        ><br />
+        <br />
+        <!-- CheckBox -->
+        <label for="CheckBox">
+          Qualification: BSC: <input type="checkbox" name="BSC" id="" /> BCS:
+          <input type="checkbox" name="BCS" id="" /> BCA:
+          <input type="checkbox" name="BCA" /> </label
+        ><br />
+        <br />
+        <label for="comment">
+          comment: <br />
+          <textarea
+            name="comment"
+            id=""
+            rows="5"
+            colum="10"
+            placeholder="About Yourself"
+          ></textarea>
+          <br />
+        </label>
+
+        <br /><label for="upload">
+          Upload Documents: <input type="file" multiple /><br />
+        </label>
+        <br /><br />
+
+        <button>Login</button> <br />
+      </form>
+    </center>
+  </body>
+</html>
